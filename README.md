@@ -12,7 +12,7 @@ This project implements a complete pipeline that:
 2. Computes joint angles (Knee, Hip, Shoulder) across all video frames
 3. Classifies physical activities (Squat / Standing) using a rule-based threshold system
 
-**Video Source:** `exercise.mp4` — Pre-recorded gym clip showing squat and standing activities.
+**Video Source:** `https://youtube.com/shorts/-5LhNSMBrEs?si=D0eUTqKjlbvmV_-k` — Pre-recorded gym clip showing squat and standing activities.
 
 ---
 
