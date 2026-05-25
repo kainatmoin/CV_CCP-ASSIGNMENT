@@ -1,11 +1,11 @@
 # Human Pose Estimation & Activity Classification Pipeline
 
 > **Computer Vision Assignment — CLO-3**
-> MediaPipe Tasks API | Rule-Based Classifier | **94.3% Accuracy**
+> MediaPipe Tasks API | Rule-Based Classifier | 
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a complete pipeline that:
 1. Detects human body poses using a pre-trained MediaPipe model
@@ -41,7 +41,7 @@ This project implements a complete pipeline that:
 !wget -q https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task -O pose_landmarker.task
 ```
 
-> ⚠️ **Important:** After running Cell 0, go to **Runtime → Restart session**, then run all remaining cells.
+>  **Important:** After running Cell 0, go to **Runtime → Restart session**, then run all remaining cells.
 
 ### Local Environment
 
@@ -51,7 +51,7 @@ pip install mediapipe opencv-python numpy matplotlib
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Upload `exercise.mp4` to your Colab session
 2. Run **Cell 0** (install + download model)
@@ -105,7 +105,7 @@ else:
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Value |
 |--------|-------|
@@ -113,14 +113,14 @@ else:
 | Pose Detected | 254 / 254 (100%) |
 | Non-Transition Frames | 228 |
 | Correctly Classified | 215 |
-| **Overall Accuracy** | **94.3% ✅** |
+| **Overall Accuracy** | **94.3% ** |
 | Target Accuracy | 90% |
 
 > **Target exceeded by 4.3%**
 
 ---
 
-## 📤 Output Files
+##  Output Files
 
 | File | Description |
 |------|-------------|
@@ -131,7 +131,7 @@ else:
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -142,7 +142,7 @@ else:
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Only **right-side landmarks** were used for angle computation
 - **Transition frames** were excluded from accuracy evaluation (inherently ambiguous)
@@ -151,13 +151,11 @@ else:
 
 ---
 
-## 📌 Assignment Info
+##  Assignment Info
 
 | Field | Detail |
 |-------|--------|
 | Course | Computer Vision |
-| CLO | CLO-3 |
-| GA | GA-4 |
 | Activities Detected | Squat, Standing, Transition |
 | Model Used | MediaPipe PoseLandmarker Lite |
 | Accuracy Achieved | 94.3% |
