@@ -1,6 +1,6 @@
 # Human Pose Estimation & Activity Classification Pipeline
 
-> **Computer Vision Assignment **
+>Computer Vision Assignment|
 > MediaPipe Tasks API | Rule-Based Classifier | 
 
 ---
