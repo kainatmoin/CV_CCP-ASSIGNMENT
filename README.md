@@ -16,7 +16,7 @@ This project implements a complete pipeline that:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 ├── pose_activity_classification.ipynb   # Main Jupyter notebook (all 3 tasks)
@@ -31,7 +31,7 @@ This project implements a complete pipeline that:
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Google Colab (Recommended)
 
@@ -62,7 +62,7 @@ All output files will be saved automatically in the working directory.
 
 ---
 
-## 🔬 Pipeline Details
+##  Pipeline Details
 
 ### Task 1 — Pose Detection & Pre-processing
 
